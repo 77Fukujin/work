@@ -101,7 +101,7 @@ if rate == '0~30':
    
     wonderful = random.choice(wonderfulice)
     
-    #st.image(wonderful, caption='今日は',wonderful,'のアイスを食べよう')
+    st.image(wonderful)
 
 elif rate == '30~60':
     st.write('笑い合えたらいい日になる')
